@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-url = 'ManuallyCategorisedList - Copy.xlsx'
+url = excel file
 df = pd.read_excel(url, usecols='B,D')
 
 #### Clean Data ####
